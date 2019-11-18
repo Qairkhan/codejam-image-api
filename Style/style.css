@@ -1,0 +1,113 @@
+#canvas {
+    width: 512px;
+    height: 512px;
+    background-color:yellow ;
+    display: flex;
+    
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.menu-icon {
+    margin: 0 1.2rem;
+}
+
+.menu-text {
+    align-self: baseline;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.87);
+
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 228px;
+    height: 100vh;
+}
+
+.tools-bl {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+    width: 228px;
+    height: 246px;
+}
+
+.tools-block {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    padding: 0;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.tools-elements {
+    width: 8rem;
+    height: 3.5rem;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.svg {
+    align-self: center;
+    padding-right: 5px;
+}
+
+.canvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    
+}
+
+.selection button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+    width: 150px;
+    height: 90px;
+    border: 0;
+    cursor: pointer;
+}
+
+.selection button:hover {
+    background-color: gray;
+}
+
